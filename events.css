@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+ }
+
+  header {
+    background:black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  nav ul li a:hover {
+    color: #ff7200;
+  }
+
+  section {
+    margin-top: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .tournament, .event {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tournament h3, .event h3 {
+    margin-top: 0;
+  }
+
+  .tournament h4, .event h4 {
+    margin-bottom: 10px;
+  }
+
+  .tournament form, .event form {
+    margin-bottom: 20px;
+  }
+
+  .tournament label, .event label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .tournament input[type="text"],
+  .tournament input[type="email"],
+  .event input[type="text"],
+  .event input[type="email"],
+  .event input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .tournament input[type="submit"],
+  .event input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .tournament input[type="submit"]:hover,
+  .event input[type="submit"]:hover {
+    background-color: #ff7200;
+  }

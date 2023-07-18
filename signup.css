@@ -1,0 +1,99 @@
+
+header {
+    background:black;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+.container{
+    position: absolute;
+    width:100%;
+    background-image: url(shutterstock_1952609485-min.jpg);
+    background-position: center;
+    background-size: cover;
+    height:109vh;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff7200;
+}
+.form{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 56%;
+    height: 100vh;
+    margin: 2%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}  
+.firm{
+    position: relative;
+    top:0;
+    left: 5%;
+    width: 42%;
+    height: 100vh;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    background: transparent;
+}
+.form h2{
+    margin-top: 10%;
+    font-size: 70px;
+    margin-left: 50px;
+}
+.form h2 span{
+    margin-top: 10px;
+    font-size: 55px;
+
+}
+.form p{
+    font-size: 36px;
+    margin-left: 50px;
+}
+.firm h1{
+    color: white;
+    margin-left: 10%;
+}
+.firm p{
+    color: white;
+    margin-left: 14%;
+}
+.cn{
+    width: 100px;
+    height: 30px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 17%;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content.cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: white;
+}
